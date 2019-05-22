@@ -1,0 +1,22 @@
+{
+  "name": "guodaolinyi/zfjwsys",
+  "description":"基于PHP Curl 查询正方教务系统信息的类库",
+  "authors": [
+    {
+      "name": "guodaolinyi",
+      "email": "1397871454@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "psr-4": {
+    "zfjwsys\\": "tools/"
+  },
+  "require": {
+    "php": ">=5.6",
+    "kurisu/captcha_reader": "1.0.3"
+  },
+  "files": [
+    "function.php",
+    "config.php"
+  ]
+}
